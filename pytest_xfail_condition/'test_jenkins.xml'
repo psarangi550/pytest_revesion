@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="1" tests="4" time="0.211" timestamp="2022-09-18T12:10:29.670941" hostname="TE1GXB2J3"><testcase classname="pytest_xfail_condition.test_xfail_condition" name="test_check" time="0.002"><skipped type="pytest.xfail" message="expecting an IndexError Exception" /></testcase><testcase classname="pytest_xfail_condition.test_xfail_condition" name="test_check01" time="0.001" /><testcase classname="pytest_xfail_condition.test_xfail_condition" name="test_check02" time="0.001"><failure message="IndexError: string index out of range">@pytest.mark.xfail(sys.platform=="linux",reason="works on windows system only")
+    def test_check02():
+&gt;       assert string.ascii_lowercase[100] == "a"
+E       IndexError: string index out of range
+
+test_xfail_condition.py:17: IndexError</failure></testcase><testcase classname="pytest_xfail_condition.test_xfail_condition" name="test_check03" time="0.001" /></testsuite></testsuites>
