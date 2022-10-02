@@ -6,8 +6,8 @@ def test_foo2():
     assert True
 
 
-# def test_foo3():
-#     assert 0
+def test_foo3():
+    assert 0
 
 
 # def test_foo4():
